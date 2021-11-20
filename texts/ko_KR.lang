@@ -37,7 +37,7 @@ cloudburst.server.query.running=Query가 %1$2s:%2$2s에서 실행 중입니다
 cloudburst.server.upnp.enabled=UPnP가 사용되도록 설정되었습니다. UPnP로 포트포워드를 시도합니다.
 cloudburst.server.upnp.disabled=UPnP가 사용되지 않도록 설정되어 있습니다.
 cloudburst.server.upnp.unavailable=UPnP가 사용되도록 설정되었지만 UPnP가 사용되도록 설정된 게이트웨이를 찾을 수 없습니다.
-cloudburst.server.upnp.success=UPnP를 사용하여 UDP 포트 %1$2s을(를) 성공적으로 포워드했습니다.
+cloudburst.server.upnp.success=UPnP를 사용하여 UDP 포트 %1$2s을(를) 포워드했습니다.
 cloudburst.server.upnp.fail=UPnP를 사용하여 UDP 포트 %1$2s을(를) 포워드하지 못했습니다.
 cloudburst.server.upnp.closed=UPnP를 사용한 UDP 포트 %1$2s의 포워딩 규칙을 제거했습니다.
 
@@ -110,7 +110,7 @@ cloudburst.plugin.eventError='%1$2s' 이벤트를 '%2$2s'에 전달할 수 없�
 cloudburst.resources.invalid-path='%1$2s' 리소스 팩 경로가 존재하지만 디렉터리가 아닙니다
 cloudburst.resources.unknown-format=형식을 인식할 수 없기 때문에 '%1$2s'을(를) 불러올 수 없습니다
 cloudburst.resources.fail='%1$2s'을(를) 불러올 수 없습니다: %2$2s
-cloudburst.resources.success=리소스 팩 %1$2s개를 성공적으로 불러왔습니다
+cloudburst.resources.success=리소스 팩 %1$2s개를 불러왔습니다
 cloudburst.resources.zip.not-found='%1$2s' 파일을 찾을 수 없습니다
 cloudburst.resources.zip.no-manifest='manifest.json'을 찾을 수 없습니다
 cloudburst.resources.zip.invalid-manifest='manifest.json'이 잘못되었거나 불완전합니다
