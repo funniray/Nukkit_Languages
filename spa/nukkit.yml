@@ -13,9 +13,11 @@ settings:
  query-plugins: true
  #Mostrar un mensaje en la consola cuando un plugin utiliza métodos de la API en desuso
  deprecated-verbose: true
- #Número de trabajadores AsyncTask 
+ #Número de trabajadores AsyncTask
  #Si se establece en auto = automático, tratará de detectar el número de núcleos ( al menos 4 )
  async-workers: auto
+ #Enable if using waterdogpe
+ waterdogpe: false
 
 network:
  #Umbral para los paquetes a enviar , en bytes . Sólo estos paquetes se comprimirán
@@ -57,7 +59,7 @@ timings:
 level-settings:
  #El formato por defecto que los niveles utilizarán cuando se creen
  default-format: anvil
- #Cambian automáticamente los niveles de velocidad para mantener 20 ticks por segundo 
+ #Cambian automáticamente los niveles de velocidad para mantener 20 ticks por segundo
  auto-tick-rate: true
  auto-tick-rate-limit: 20
  #Establece el número de ticks base ( 1 = 20 ticks por segundo , 2 = 10 ticks por segundo , etc. )
@@ -102,14 +104,14 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #If true, player data will be saved as players/playername.dat
  #If false, nukkit won't save player data as "dat" files, in order that plugins can do something on it.
  save-player-data: true
  #The time between skin change action in seconds, set to 0 if you dont want the cooldown
  skin-change-cooldown: 30
- 
+
 aliases:
  #Alias de comandos
  #Ejemplos:

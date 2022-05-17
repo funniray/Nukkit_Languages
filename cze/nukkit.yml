@@ -4,7 +4,7 @@
 
 settings:
  #Multi-jazykove nastaveni
- #Dostupne: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze 
+ #Dostupne: eng, chs, cht, jpn, rus, spa, pol, bra, kor, ukr, deu, ltu, cze
  language: "cze"
  #Whether to send all strings translated to server locale or let the device handle them
  #Zda chcete odeslat všechny řetězce přeložené do lokálního serveru nebo nechat zařízení zvládnout
@@ -17,6 +17,8 @@ settings:
  #Počet pracovníků AsyncTasku
  #Pokud je nastaven na automatické, pokusí se detekovat počet jader (a nejméně 4)
  async-workers: auto
+ #Enable if using waterdogpe
+ waterdogpe: false
 
 network:
  #Threshold pro dávkové pakety v bajtech. Pouze tyto pakety budou komprimovány
@@ -103,14 +105,14 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #Pokud je true, data hráče budou uložena jako players/playername.dat
  #Pokud je false, nukkit neukládá data hráče jako "datové" soubory, aby mohly pluginy něco udělat.
  save-player-data: true
  #The time between skin change action in seconds, set to 0 if you dont want the cooldown
  skin-change-cooldown: 30
- 
+
 aliases:
  #Aliasy pro příkazy
  #Například:

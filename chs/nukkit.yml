@@ -16,6 +16,8 @@ settings:
  #异步线程数量
  #如果设置为auto，则自动识别CPU核心数量（最少4线程）
  async-workers: auto
+ #Enable if using waterdogpe
+ waterdogpe: false
 
 network:
  #数据包大小阀值（单位：字节）。仅这些包会被压缩
@@ -102,14 +104,14 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #决定服务器是否以 players/playername.dat 的形式保存玩家数据。默认 true 为保存。
  #如果设置为 false，nukkit 将不会保存玩家数据，这样一些与玩家数据有关的插件就可以大展身手了。
  save-player-data: true
  #The time between skin change action in seconds, set to 0 if you dont want the cooldown
  skin-change-cooldown: 30
- 
+
 aliases:
  #指令别称
  #例如：
